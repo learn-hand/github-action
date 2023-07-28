@@ -3,6 +3,6 @@ on: workflow_dispatch
 jobs:
   echo:
     runs-on: ubuntu-lastest
-    step:
+    steps:
       - name: echo step
         run: ehco 'Hello World!'
